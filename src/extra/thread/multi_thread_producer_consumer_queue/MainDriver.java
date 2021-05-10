@@ -1,4 +1,4 @@
-package extra.multi_thread_producer_consumer_queue;
+package extra.thread.multi_thread_producer_consumer_queue;
 
 /**
  * Classic Producer-Consumer Problem : Let's say we have a list of fruits, so
