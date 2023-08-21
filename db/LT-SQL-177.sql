@@ -11,14 +11,14 @@ insert into Employee (id, salary) values ('3', '300');
 -- view data
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
-	DECLARE result INT;
+    DECLARE result INT;
     SET result = NULL;
     SET N = N-1;
     
     SELECT DISTINCT salary INTO result
-	from Employee 
-	order by salary DESC
-	LIMIT 1 OFFSET N;
+    from Employee 
+    order by salary DESC
+    LIMIT 1 OFFSET N;
     
     RETURN result;
 END
