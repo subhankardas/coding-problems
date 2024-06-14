@@ -1,5 +1,6 @@
-## References
-
-### Tools used
-* Online SQL Environment: https://sqliteonline.com/ or https://www.mycompiler.io/new/mysql
-* DB Version: MySQL 8.0
+## Hosted MySQL Database Details
+- *Host*: **sql12.freesqldatabase.com**
+- *Database name*: **sql12713981**
+- *Database user*: **sql12713981**
+- *Database password*: **AJ77YkfDF4**
+- *Port number*: **3306**
